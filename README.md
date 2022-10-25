@@ -4,7 +4,7 @@ Typescript Vite template you can clone to easily generate a new Vite Typescript 
 ---------------------------
 HOW TO CLONE
 ---------------------------
-- Visit this package on [Github](https://github.com/AvalonCorp/typescript-vite-library-template), press the "Use This Template" button at the top right.
+- Visit this package on [Github](https://github.com/GambitGamesLLC/typescript-vite-library-template), press the "Use This Template" button at the top right.
 
 - Fill out the details for your new project like normal
 
