@@ -1,0 +1,26 @@
+{
+  "name": "typescript-vite-library-template",
+  "private": true,
+  "version": "1.0.0",
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/main.umd.js",
+  "module": "./dist/main.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/main.umd.js",
+      "import": "./dist/main.es.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.14"
+  }
+}
